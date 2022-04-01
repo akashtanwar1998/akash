@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body,html{
+    
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/img/bg\ image.jpg");
+}
+.py-5 h2{
+    font-size:50px;
+    font-family:Poppins,sans-serif;
+    color:#f9004d;
+}
+.col-md-7{
+    color:white;
+    font-family: poppins,sans-serif;
+}
+h1 a{
+    color:white;
+    text-decoration: none;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{ 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+.slider-container {
+    margin-top:5px ;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  }
+  .menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+  }
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+  }
+  .menu label:hover,
+  .menu label:focus {
+    background: #1c87c9;
+  }
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+  }
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+  }
+  .slide-1 {
+    background-image: url("../img/coffee\ shop\ 2.jpg");
+  }
+  .slide-2 {
+    background-image: url("../img/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg");
+  }
+  .slide-3 {
+    background-image: url("../img/kristaps-grundsteins-tQMXs0ee8B0-unsplash\ \(1\).jpg");
+  }
+.about{
+  padding:70px 10px;
+  margin-top:5px;
+  background-color: #191919;
+}
+.about img{
+  margin-left:-250px;
+  width:450px;
+  height:45vh;
+}
+.about-text {
+  width: 500px;
+  
+
+}
+.main{
+  width:1130px;
+  max-width: 95%;
+  margin: auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+
+}
+.about-text h1{
+  color:#f9004d;
+  font-size:50px;
+  text-transform:capitalize;
+  margin-bottom: 20px;
+  font-family: poppins,sans-serif;
+}
+.about-text p{
+  color:#f3e9ec;
+  font-size:20px;
+  margin-bottom: 50px;
+  line-height:28px;
+  
+  font-family: poppins,sans-serif;
+}
+.about button{
+  background-color: #f9004d;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition:.6s;
+  padding: 13px 30px;
+}  
+.about h1 a {
+  color:#fff;
+  text-decoration: none;
+  
+
+}
+.about h1 a:hover{
+  color:#f9004d;
+}
